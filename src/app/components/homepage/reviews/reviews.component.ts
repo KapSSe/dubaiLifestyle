@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import Json, * as reviewsData from '../../../../assets/reviews/reviews.json';
+import  * as reviewsData  from '../../../../assets/reviews/reviews.json';
 
 
 @Component({
