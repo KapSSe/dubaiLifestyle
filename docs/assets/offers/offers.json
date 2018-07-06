@@ -1,0 +1,9 @@
+{
+    "expirationTime": {
+        "minutes": 10,
+        "seconds": 4
+    },
+    "spots": 32,
+    "flagUrl": "./assets/img/flags/flag-israel.png",
+    "locale": "Israel"
+}

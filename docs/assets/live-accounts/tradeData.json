@@ -1,0 +1,555 @@
+[
+    {
+        "stats":["open","won","lost","last"],
+        "values":[1,121,29,150],
+        "data":[
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"BUY",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"45.000",
+                "status":"won"
+            },
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"SELL",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"45.000",
+                "status":"won"
+            },
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"BUY",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"45.000",
+                "status":"won"
+            },
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"BUY",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"45.000",
+                "status":"won"
+            },
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"SELL",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"45.000",
+                "status":"won"
+            },
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"BUY",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"45.000",
+                "status":"won"
+            },
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"BUY",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"45.000",
+                "status":"won"
+            },
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"BUY",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"45.000",
+                "status":"won"
+            },
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"BUY",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"45.000",
+                "status":"won"
+            },
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"BUY",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"45.000",
+                "status":"won"
+            },
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"BUY",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"45.000",
+                "status":"won"
+            },
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"BUY",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"45.000",
+                "status":"won"
+            }
+        ]
+    },
+    {
+        "stats":["open","won","lost","last"],
+        "values":[12,11,9,15],
+        "data":[
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"BUY",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"45.000",
+                "status":"won"
+            },
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"BUY",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"45.000",
+                "status":"won"
+            },
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"BUY",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"45.000",
+                "status":"won"
+            },
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"BUY",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"99.000",
+                "status":"lost"
+            },
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"BUY",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"45.000",
+                "status":"lost"
+            },
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"BUY",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"45.000",
+                "status":"won"
+            },
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"BUY",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"45.000",
+                "status":"won"
+            },
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"BUY",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"45.000",
+                "status":"won"
+            },
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"BUY",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"45.000",
+                "status":"won"
+            },
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"BUY",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"45.000",
+                "status":"won"
+            },
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"BUY",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"45.000",
+                "status":"won"
+            },
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"BUY",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"45.000",
+                "status":"won"
+            }
+        ]
+    },
+    {
+        "stats":["open","won","lost","last"],
+        "values":[1,321,69,430],
+        "data":[
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"SELL",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"45.000",
+                "status":"won"
+            },
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"BUY",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"45.000",
+                "status":"won"
+            },
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"BUY",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"45.000",
+                "status":"won"
+            },
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"BUY",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"45.000",
+                "status":"won"
+            },
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"BUY",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"45.000",
+                "status":"won"
+            },
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"BUY",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"45.000",
+                "status":"won"
+            },
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"BUY",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"45.000",
+                "status":"won"
+            },
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"BUY",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"45.000",
+                "status":"won"
+            },
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"BUY",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"45.000",
+                "status":"won"
+            },
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"SELL",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"45.000",
+                "status":"won"
+            },
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"BUY",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"45.000",
+                "status":"won"
+            },
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"BUY",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"45.000",
+                "status":"won"
+            }
+        ]
+    },
+    {
+        "stats":["open","won","lost","last"],
+        "values":[1,21,9,40],
+        "data":[
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"BUY",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"45.000",
+                "status":"won"
+            },
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"BUY",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"45.000",
+                "status":"won"
+            },
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"BUY",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"45.000",
+                "status":"won"
+            },
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"BUY",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"45.000",
+                "status":"won"
+            },
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"BUY",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"45.000",
+                "status":"won"
+            },
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"BUY",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"45.000",
+                "status":"won"
+            },
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"BUY",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"45.000",
+                "status":"won"
+            },
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"BUY",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"45.000",
+                "status":"won"
+            },
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"BUY",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"45.000",
+                "status":"won"
+            },
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"SELL",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"45.000",
+                "status":"won"
+            },
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"BUY",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"45.000",
+                "status":"won"
+            },
+            {
+                "time":"2016-08-04 04:00:00",
+                "asset":"USD/JPY",
+                "position":"BUY",
+                "investment":"25",
+                "entryRate":"101.0810",
+                "closingRate":"101.2080",
+                "executionTime": "2016-07-18 00:27:21",
+                "payOut":"45.000",
+                "status":"won"
+            }
+        ]
+    }
+
+]
