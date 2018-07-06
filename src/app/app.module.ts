@@ -25,7 +25,8 @@ import { FooterMembersComponent } from './components/memberspage/footer-members/
 
 const routes: Routes = [
   { path: '', component: HomepageComponent},
-  { path: 'members', component: MemberspageComponent }
+  { path: 'members', component: MemberspageComponent },
+  { path: '**', component: HomepageComponent},
 ];
 
 @NgModule({
