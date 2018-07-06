@@ -1,0 +1,62 @@
+.counter{
+    padding: 10px 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    color:white;
+    font-size: 66px;
+    &-wrapper{
+        display: flex;
+        align-items:center;
+    }
+}
+
+.counter-desc{
+    color:white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    font-size: 24px;
+    &_first{
+        text-transform: capitalize;
+        margin: 0px;
+    }
+    &_second{
+        display: flex;
+        align-items: center;
+        margin: 0px;
+    }
+    &_country{
+        text-transform: uppercase;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    &_uppercase{
+        text-transform: uppercase;
+    }
+    &_flag{
+        padding: 0px 10px; 
+    }
+}
+
+@media screen and (max-width:1280px) {
+    .counter{
+        font-size: 46px;
+        padding: 5px 10px;
+    }
+    .counter-desc{
+        font-size: 18px;
+        line-height: 22px;
+        &_country{
+            font-size: 22px;
+        }
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .counter-wrapper{
+        margin-top:30px;
+    }
+}
+
+
+

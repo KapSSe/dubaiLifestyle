@@ -1,0 +1,206 @@
+.live-accounts{
+    &__title{
+        margin-bottom: 28px;
+        margin-top:29px;
+        font-family: 'Khand', sans-serif;
+        font-size: 48px;
+        font-weight: 500;       
+        color: #494949; 
+    }
+    &__tabs{
+        max-width: 1040px;
+        margin: 0 auto;
+    }
+    &__name{
+        margin-top:12px;
+        margin-bottom: 5px;
+        font-family: 'Khand', sans-serif;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 1;
+        margin-bottom: 5px;
+    }
+    &__tab{
+        border: 6px solid #ededed;
+        border-radius: 10px;
+        text-align: center;
+        padding: 10px;
+            & img {
+                filter: grayscale(100%);
+            }
+            &_active{
+                background: #8e11ef;
+                border-color: #8e11ef;
+                & img {
+                    filter: grayscale(0%);
+                }
+                & h4, p, span {
+                    color:white;
+                }
+            }
+    }
+    &__desc{
+        margin: 0;
+        margin-bottom: 5px;
+        font-size: 18px;
+        font-family: 'Khand', sans-serif;
+        color: #606060;
+        line-height: 1;
+        font-weight: 300;
+    }
+    &__starting{
+        font-weight: bold;
+        color: #606060;
+        font-size: 24px;
+        line-height: 1;
+    }
+    &__profit{
+        font-weight: bold;
+        color: #8e11ef;
+        font-size: 30px;
+        line-height: 1;
+    }
+    &__body{
+        max-width: 1040px;
+        margin: 0 auto;
+        margin-top: 5px;
+    }
+}
+
+.table{
+    overflow: hidden;
+    border-radius: 15px;
+    background-color: #8e11ef;
+    padding: 6px;
+    &_wrap{
+        overflow-x: auto;
+    }
+    &__header{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 15px;
+        align-items: center;
+        background:white;
+        & h3 {
+            margin: 16px 12px;
+            font-family: 'Roboto Condensed', sans-serif;
+            font-size: 30px;
+            text-transform: uppercase;
+            font-weight: 700;
+            color:#8e11ef;
+            
+        }
+        &_left{
+            display: flex;
+            flex-direction: row;
+        }
+        &_right{
+            display: flex;
+            flex-direction: row;
+                & span{
+                    padding-left: 5px;
+                    padding-right: 20px;
+                    font-family: "Roboto Condensed";
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    color: #8e11ef;
+                    font-size: 16px;
+                    font-weight: 700;
+                }
+        }
+    }
+
+    &__asset{
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    &__position{
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+}
+
+.stats{
+    &__ul{
+        margin: 0;
+        display: flex;
+        padding: 10px 10px 20px 10px;
+        & :first-child{
+            margin-left: 5px;
+        }
+    }
+    &__li{
+        margin-left:35px; 
+        color:white;
+        list-style: none;
+    }
+}
+
+.stat{
+    &_title{
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 1;
+        text-transform: capitalize;
+    }
+    &_value{
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 1;
+    }
+}
+
+
+table{
+    width: 100%;
+    min-width: 1024px;
+    border: 0;
+    border-collapse: collapse;
+    & thead{
+        background: #5f5f5f;
+        height: 36px;
+        & th{
+            padding: 5px 0px;
+            font-family: 'Roboto Condensed', sans-serif;
+            color:white;
+            text-transform: uppercase;
+            font-size: 15px;
+            font-weight: 700;
+        }
+    }
+    & tbody{
+        text-align: left;
+        background: white;
+        & tr{
+            height: 33px;
+        }
+        & tr:nth-child(odd) {
+            background: #e8e9eb; 
+        }
+        & td {
+            font-family: 'Roboto Condensed', sans-serif;
+            padding-left: 15px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            color: #082a49;
+            font-weight: normal;
+            font-size: 15px;
+        }
+        
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .live-accounts{
+        &__tabs{
+            flex-direction: column;
+        } 
+        &__tab{
+            width: 100%;
+        }  
+    }
+
+}

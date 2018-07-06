@@ -1,0 +1,66 @@
+<section class="live-accounts">
+  <h3 class="live-accounts__title">Watch Live Accounts</h3>
+  <ul class="live-accounts__tabs" #list uk-grid>
+    <li *ngFor="let user of users;let i = index" 
+        (click)="isClicked=i;setActive(i)" 
+        [class.live-accounts__tab_active]="isClicked==i" 
+        class="uk-width-1-4 live-accounts__tab">
+      <img [src]="user.imageUrl" [alt]="user.name" draggable="false">
+      <h4 class="live-accounts__name">{{user.name}}</h4>
+      <p class="live-accounts__desc">starting: <span class="live-accounts__starting">${{user.starting}}</span></p>
+      <p class="live-accounts__desc">profit: <span class="live-accounts__profit">${{user.profit}}</span></p>
+    </li>
+  </ul>
+  <div class="live-accounts__body table">
+    <div class="table__stats">
+        <ul class="stats__ul">
+          <li *ngFor="let stat of tradeData[active].stats; let i = index" class="stats__li">
+            <span class="stat_title">{{stat}}</span> : <span class="stat_value">{{tradeData[active].values[i]}}</span>
+          </li>
+        </ul>
+    </div>
+    <div class="table__header">
+      <div class="table__header_left">
+        <img src="../../../assets/img/live-accounts/trade-icon.svg" alt="trade History">
+        <h3>trade history</h3>
+      </div>
+      <div class="table__header_right">
+        <img src="../../../assets/img/live-accounts/trade-refresh.svg" alt="refresh">
+        <span>Last Updated: 14:5:46 17-5-2015</span>
+      </div>
+    </div>
+    <div class="table_wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>time</th>
+            <th>asset</th>
+            <th>position</th>
+            <th>investment</th>
+            <th>entry rate</th>
+            <th>closing rate</th>
+            <th>execution time</th>
+            <th>pay out</th>
+            <th>status</th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of tradeData[active].data">
+              <td class="table__time">{{item.time}}</td>
+              <td class="table__asset">{{item.asset}}</td>
+              <td class="table__position" 
+                  [style.color]="item.position === 'BUY' ? 'green': 'red'">
+                {{item.position}}
+              </td>
+              <td class="table__invetment">{{item.investment}}</td>
+              <td class="table__entry">{{item.entryRate}}</td>
+              <td class="table__closing">{{item.closingRate}}</td>
+              <td class="table__execution">{{item.executionTime}}</td>
+              <td class="table__payout">{{item.payOut}}</td>
+              <td class="table__status">{{item.status}}</td>
+            </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>

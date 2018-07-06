@@ -1,0 +1,94 @@
+.form{
+    &__input{
+        min-height: 78px;
+        border-radius: 13px;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+        padding: 30px 36px;
+    }
+    &__submit{
+        position: relative;
+        height: 115px;
+        font-family: 'Khand', sans-serif;
+        font-size: 70px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration: none;
+        color:#502922;
+        background: rgba(255, 255, 255, 0.2);
+        border: 7px solid rgba(255, 255, 255, 0.5);
+        border-radius: 15px;
+        box-shadow: 0 0 14px rgba(0, 0, 0, 0.67);
+        cursor: pointer;
+            &:after {
+                display: block;
+                position: absolute;
+                top:50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                width: 100%;
+                height: 100%;
+                content: '';
+                z-index: -1;
+                background-color: #ffae00;
+                border: 7px solid #ffd884;
+                background-image: linear-gradient(to bottom, #ffd884, #ffba26 50%, #ffae00 51%);
+                border-radius: 15px;
+            }
+    }
+}
+
+.form__field{
+    position: relative;
+}
+
+.form-error{
+    position: absolute;
+    top:0px;
+    right: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 12px;
+
+    color:red;
+    padding: 5px;
+    font-weight: 700;
+    text-transform: uppercase;
+        &_bt{
+            position: absolute;
+            font-family: 'Roboto Condensed', sans-serif;
+            color:red;
+            font-weight: 700;
+            text-transform: uppercase;
+            bottom:-25px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+}
+
+@media screen and (max-width:1024px) {
+    .form{
+        &__input{
+            min-height: unset;
+        }
+        &__submit{
+            font-size: 45px;
+            height: 80px;
+        }
+    }
+}
+
+@media screen and (max-width:415px) {
+    .form{
+        &__input{
+            padding: 15px;
+            font-size: 14px;
+            border-radius: 10px;
+        }
+        &__submit{
+            font-size: 30px;
+            height: 60px;
+            border-radius: 10px;
+        }
+    }
+}

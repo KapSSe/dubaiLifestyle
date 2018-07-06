@@ -1,0 +1,21 @@
+<section class="reviews">
+    <div class="uk-container">
+        <h2 class="reviews__heading">what people are saying</h2>
+        <ul class="reviews__list">
+            <li *ngFor="let review of reviewsData; let i = index" class="reviews__item user">
+                <p class="user__desc">
+                    By <span class="user__name">
+                    {{review.userName}}
+                    </span> on {{review.date}} 
+                    <img class="user__rating" [src]="ratingPaths[i]">
+                </p>
+                <p class="user__member">
+                    {{review.membership}}
+                </p>
+                <p class="user__comment">
+                    {{review.comment}}
+                </p>
+            </li>
+        </ul>
+    </div>
+</section>

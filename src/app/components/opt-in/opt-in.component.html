@@ -1,0 +1,27 @@
+<form [formGroup]="optInForm" (ngSubmit)="onSubmit()" class="form uk-grid-small form__field" uk-grid novalidate>
+    <div class="form__field uk-width-1-2@m">
+        <input 
+        class="form__input uk-input" 
+        type="text" 
+        placeholder="Enter Your Name"
+        formControlName="username"   
+        name="username"
+        required>
+        <span class="form-error" *ngIf="optInForm.controls.username.invalid && optInForm.controls.username.touched">please enter a name*</span>
+    </div>
+    <div class="form__field uk-width-1-2@m">
+        <input 
+        class="form__input uk-input" 
+        type="text" 
+        placeholder="Enter Your Email"
+        formControlName="email" 
+        name="email"
+        required>
+        <span class="form-error" *ngIf="optInForm.controls.email.invalid && optInForm.controls.email.touched">please enter a valid email*</span>
+    </div>
+    <div class="uk-width-1-1@s">
+        <button class="form__submit uk-width-1-1" type="submit">
+            <span>get free access</span>
+        </button>
+    </div>
+</form>

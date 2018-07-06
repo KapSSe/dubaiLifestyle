@@ -1,0 +1,30 @@
+[
+    {
+        "imageUrl":"./assets/img/live-accounts/tab-img-1.png",
+        "name": "Erin Parkes",
+        "starting": 300,
+        "profit": "23,141"
+    },
+
+    {
+        "imageUrl":"./assets/img/live-accounts/tab-img-2.png",
+        "name": "Gabriel Massie",
+        "starting": 1200,
+        "profit": "233,125"
+    },
+
+    {
+        "imageUrl":"./assets/img/live-accounts/tab-img-3.png",
+        "name": "Imogen Haddon",
+        "starting": 30,
+        "profit": "2,145"
+    },
+    
+    {
+        "imageUrl":"./assets/img/live-accounts/tab-img-4.png",
+        "name": "Benjamin Potts",
+        "starting": 500,
+        "profit": "43,145"
+    }
+
+]

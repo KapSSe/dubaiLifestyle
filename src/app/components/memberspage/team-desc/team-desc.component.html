@@ -1,0 +1,57 @@
+<section class="team-desc">
+  <div class="uk-container team-desc__container">
+      <app-security [heading]="'grey'"></app-security>
+  </div>
+  <div class="uk-container team">
+      <div class="team__desc">
+          <p class="team__reg" >Hi, the entire team at the <span class="team_bold team_upper">Dubai Lifestyle App</span> you’ve made it into the <span class="team_bold team_indent team_upper">member’s area.</span></p>
+          <p class="team__reg"> You’re only one step away from officially becoming a beta tester and raking in over</p>
+          <div class="team__profit">
+            $<span class="team__profit_bold">7,183.82</span>
+            <p class="team__profit_desc">in profits each and</p>
+            <p class="team__profit_desc team_bold team_indent team_upper">every single day</p>
+          </div>
+          <a class="team__reg" href="#">Watch the video now to see how you can join us - <span class="team_bold team_indent team_upper">free!</span></a>
+      </div>
+      <img class="team__image" src="../../../assets/img/team/team.jpg" alt="Team">
+      <div class="team__desc">
+          <p class="team__reg team_italic">Your Friends,</p>
+          <p class="team__reg">The <span class="team_bold team_upper">Dubai Lifestyle App</span> Team</p>
+      </div>
+  </div>
+  <div class="uk-container steps">
+    <h3 class="steps__heading">Start Profiting In <span class="steps__heading_bold">3 Simple Steps</span></h3>
+    <ul class="steps__ul">
+      <li class="steps__li" *ngFor="let item of list">
+        <img class="steps__image" [src]="item.imageUrl" alt="step">{{item.data}}
+      </li>
+    </ul>
+  </div>
+  <div class="uk-container benefits">
+      <h3 class="steps__heading">Here’s What You Get When You Register</h3>
+      <p class="benefits__desc">As soon as you enter your correct details in the form below, you get instant access <br> to all of the benefits and resources offered to members of our inner circle.</p>
+      <ul class="benefits__ul" uk-grid>
+        <li *ngFor="let benefit of benefits" class="benefits__li uk-width-1-2@m">
+          <img class="benefits__image" [src]="benefit.imageUrl" alt="benefit">
+          <div>
+            <h3 class="benefits__title">{{benefit.title}}</h3>
+            <p class="benefits__text">{{benefit.data}}</p>
+          </div>
+        </li>
+      </ul>
+  </div>
+  <div class="uk-container">
+    <app-live-accounts></app-live-accounts>
+  </div>
+  <div class="uk-container faq">
+      <h3 class="faq__title">Frequently Asked Questions</h3>
+      <ul class="faq__accodion" uk-accordion="multiple: true">
+          <li *ngFor="let faq of faqs">
+              <a class="uk-accordion-title" href="#">{{faq.title}}</a>
+              <div class="uk-accordion-content">
+                  <p>{{faq.data}}</p>
+              </div>
+          </li>
+      </ul>
+  </div>  
+</section>

@@ -1,0 +1,50 @@
+.reviews{
+    position: relative;
+    padding-top: 29px;
+    padding-bottom: 20px;
+    width: 100%;
+    background: white;
+    text-align: center;
+    overflow: hidden;
+    &__heading{
+        margin-bottom: 27px;
+        font-family: 'Khand', sans-serif;
+        font-size: 48px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color:#4e2a00;
+    }
+    &__list{
+        text-align: left;
+    }
+    &__item{
+        list-style: none;
+    }
+}
+
+.user{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    &__desc{
+        margin:0;
+    }
+    &__name{
+      color: #0066c0;
+    }
+    &__member{
+        margin-top:0;
+        margin-bottom: 5px;
+        font-size: 14px;
+        font-weight: bold;
+        color: #cc6600;
+    }
+    &__comment{
+        margin-top: 0px;
+        text-align: left;
+    }
+    &__rating{
+        display: inline-block;
+        vertical-align: baseline;
+    }
+}
