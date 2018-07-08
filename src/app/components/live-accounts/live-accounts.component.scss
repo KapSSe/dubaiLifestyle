@@ -194,6 +194,7 @@ table{
 
 
 @media screen and (max-width:768px) {
+    
     .live-accounts{
         &__tabs{
             flex-direction: column;
@@ -202,5 +203,18 @@ table{
             width: 100%;
         }  
     }
-
+    .table__header{
+        flex-direction: column;
+            &_right{
+                margin-bottom: 16px;
+            }
+    }
+    .stats{
+        &__ul{
+            justify-content: space-around;
+        }
+        &__li{
+            margin-left: 0px;
+        }
+    }
 }
