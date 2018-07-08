@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
+import { FieldsService } from '../sign-up/fields.service';
 import { Router } from '@angular/router';
 
 
@@ -12,7 +13,7 @@ export class OptInComponent implements OnInit {
   invalid = false;
   optInForm: FormGroup;
 
-  constructor(private router: Router) { 
+  constructor(private router: Router, private fs: FieldsService) { 
     this.optInForm = new FormGroup({
       'username': new FormControl(null,[
        Validators.required,
@@ -32,6 +33,8 @@ export class OptInComponent implements OnInit {
 
   onSubmit(){
     if(this.optInForm.valid){
+        this.fs.setName(this.optInForm.value.username)
+        this.fs.setEmail(this.optInForm.value.email)
         this.router.navigate(['/members'])
     };
   }

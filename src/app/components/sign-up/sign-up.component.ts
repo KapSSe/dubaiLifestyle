@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
+import { FieldsService } from './fields.service';
 import { Router } from '@angular/router';
 
 
@@ -12,9 +13,9 @@ export class SignUpComponent implements OnInit {
 
   signUpForm: FormGroup;
 
-  constructor(private router: Router) { 
+  constructor(private router: Router, private fs: FieldsService) { 
     this.signUpForm = new FormGroup({
-      'username': new FormControl(null,[
+      'username': new FormControl(this.fs.getName(),[
        Validators.required,
        Validators.pattern("[a-zA-Z_0-9]{2,}")    
       ]),
@@ -22,7 +23,7 @@ export class SignUpComponent implements OnInit {
         Validators.required,
         Validators.pattern("[a-zA-Z_0-9]{2,}")    
        ]),
-      'email' : new FormControl(null,[
+      'email' : new FormControl(this.fs.getEmail(),[
         Validators.required, 
         Validators.email,
         Validators.pattern("[a-zA-Z_]+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}") 

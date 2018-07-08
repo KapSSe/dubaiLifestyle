@@ -22,6 +22,7 @@ import { SignUpComponent } from './components/sign-up/sign-up.component';
 import { LiveAccountsComponent } from './components/live-accounts/live-accounts.component';
 import { FooterMembersComponent } from './components/memberspage/footer-members/footer-members.component';
 
+import { FieldsService } from './components/sign-up/fields.service';
 
 const routes: Routes = [
   { path: '', component: HomepageComponent},
@@ -55,7 +56,7 @@ const routes: Routes = [
     OffersModule,
     RouterModule.forRoot(routes)
   ],
-  providers: [],
+  providers: [FieldsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
